@@ -1,14 +1,14 @@
 {
     "name": "AvataFactoryTester",
     "short_name": "AFT",
-    "id":"yc",
+    "id":"tester",
     "start_url": "/",
     "scope": "/",
     "display": "fullscreen",
     "orientation": "portrait-primary",
     "background_color": "#ffffff",
     "theme_color": "#3f51b5",
-    "description": "smartfarm을 위한 페이지입니다.",
+    "description": "장비 테스트를 위한 페이지입니다.",
     "dir": "ltr",
     "lang": "ko-KR",
     "icons": [

@@ -5,7 +5,7 @@ const file_system   = require('./api/fs_core');
 const path_data     = require('./api/fs_path');
 const index_router  = require('./routes');
 
-if(!file_system.Sync_check(path_data.data())) file_system.Sync_folderMK(path_data.data());
+if(!file_system.Sync_check(path_data.root())) file_system.Sync_folderMK(path_data.root());
 
 const app   = express();
 const port  = 3003;
