@@ -12,6 +12,7 @@ router.post('/log', async function(req, res) {
         file_name += (date.getMonth()+1)+"_";
         if(date.getDate() < 10) file_name += "0";
         file_name += date.getDate()+".json";
+        log.data.time = date;
     
         const deive_path = path_data.data(log.DVC);
         if(!await file_system.check(deive_path)) await file_system.folderMK(deive_path);
